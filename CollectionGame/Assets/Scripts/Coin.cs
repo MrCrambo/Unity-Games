@@ -30,7 +30,14 @@ public class Coin : MonoBehaviour
 
         if (coinCount <= 0)
         {
+            GameObject timer = GameObject.Find("LevelTimer");
+            Destroy(timer);
 
+            GameObject[] fireworks = GameObject.FindGameObjectsWithTag("Fireworks");
+            foreach(GameObject obj in fireworks)
+            {
+                obj.GetComponent<ParticleSystem>().Play();
+            }
         }
     }
 }
