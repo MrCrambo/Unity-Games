@@ -5,13 +5,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public bool mouseLook = true;
+    public bool canFire = true;
+
     public string horAxis = "Horizontal";
     public string verAxis = "Vertical";
     public string fireAxis = "Fire1";
 
     public float maxSpeed = 5f;
+    public float reloadDelay = 0.3f;
 
     public Rigidbody thisObject = null;
+    public Transform[] turretArray;
     
     void Awake()
     {
@@ -38,5 +42,20 @@ public class PlayerController : MonoBehaviour
 
             transform.localRotation = Quaternion.LookRotation(lookDirection.normalized, Vector3.up);
         }
+
+        if (Input.GetButtonDown(fireAxis) && canFire)
+        {
+            foreach (Transform item in turretArray)
+            {
+                AmmoManager.SpawnAmmo(item.position, item.rotation);
+            }
+            canFire = false;
+            Invoke("EnableFire", reloadDelay);
+        }
+    }
+
+    void EnableFire()
+    {
+        canFire = true;
     }
 }
