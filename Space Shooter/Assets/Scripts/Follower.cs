@@ -4,15 +4,38 @@ using UnityEngine;
 
 public class Follower : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform objToFollow = null;
+    public bool isFollowing = false;
+
+    void Awake()
     {
-        
+        if (!isFollowing)
+        {
+            return;
+        }
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+        {
+            objToFollow = player.transform;
+        }
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
     void Update()
     {
-        
+        if (objToFollow == null)
+        {
+            return;
+        }
+
+        Vector3 objDirection = objToFollow.position - transform.position;
+        if (objDirection != Vector3.zero)
+        {
+            transform.localRotation = Quaternion.LookRotation(objDirection.normalized, Vector3.up);
+        }
     }
 }
