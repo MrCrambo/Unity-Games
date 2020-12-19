@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded = false;
     public bool canControl = true;
 
+    public static PlayerController playerInstance = null;
+
     public float maxSpeed = 50f;
     public float jumpPower = 600f;
     public float jumpTimeOut = 1f;
@@ -41,6 +43,20 @@ public class PlayerController : MonoBehaviour
 
 	[SerializeField] private static float health = 100f;
 
+    void Awake ()
+	{
+		thisBody = GetComponent<Rigidbody2D>();
+        playerInstance = this;
+	}
+
+    private void FlipDirection()
+	{
+		facing = (FACEDIRECTION) ((int)facing * -1f);
+		Vector3 localScale = transform.localScale;
+		localScale.x *= -1f;
+		transform.localScale = localScale;
+	}
+
     private bool GetGrounded()
     {
         Vector2 circleCenter = new Vector2(transform.position.x, transform.position.y) + feetCollider.offset;
@@ -56,6 +72,11 @@ public class PlayerController : MonoBehaviour
         canJump = false;
         Invoke("ActivateJump", jumpTimeOut);
     }
+
+    private void ActivateJump()
+	{
+		canJump = true;
+	}
 
     /// <summary>
     /// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.
@@ -77,9 +98,23 @@ public class PlayerController : MonoBehaviour
         
         if ((horz < 0f && facing != FACEDIRECTION.FACELEFT) || (horz > 0f && facing != FACEDIRECTION.FACERIGHT))
 		{
-			//FlipDirection();
+			FlipDirection();
 		}
     }
 
+    void OnDestroy()
+	{
+		playerInstance = null;
+	}
+
+	static void Die()
+	{
+		Destroy(PlayerController.playerInstance.gameObject);
+	}
+
+	public static void Reset()
+	{
+		Health = 100f;
+	}
 
 }
