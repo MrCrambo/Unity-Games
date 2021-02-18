@@ -1203,6 +1203,8 @@ PlayableDirector:
     value: {fileID: 297924414}
   - key: {fileID: 4160169531146825218, guid: c9d6852cf646d634c9970e08ff86eb52, type: 2}
     value: {fileID: 1524961504}
+  - key: {fileID: -5381455561261054333, guid: c9d6852cf646d634c9970e08ff86eb52, type: 2}
+    value: {fileID: 1366213374}
   m_ExposedReferences:
     m_References:
     - b24314708883be04491d5a9a9f607ace: {fileID: 531693132}
@@ -2344,7 +2346,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 38.059135
+  m_FocalLength: 25.734083
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2353,7 +2355,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 50
+  field of view: 35
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2378,7 +2380,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0060781096, y: 0.605269, z: -0.0038189774, w: 0.4341107}
+  m_LocalRotation: {x: 0.0053425287, y: 0.53201854, z: -0.0033567997, w: 0.699657}
   m_LocalPosition: {x: -5.022368, y: 0.8530126, z: 6.7130466}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_Children: []
@@ -3555,6 +3557,7 @@ GameObject:
   - component: {fileID: 1366213373}
   - component: {fileID: 1366213372}
   - component: {fileID: 1366213374}
+  - component: {fileID: 1366213375}
   m_Layer: 0
   m_Name: CM vcam2
   m_TagString: Untagged
@@ -3631,6 +3634,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1366213375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366213371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 1
+  m_FocusOffset: 2.7
+  m_Profile: {fileID: 11400000, guid: 273e1d9d36fcf4bfba8d9856bf21c011, type: 2}
 --- !u!1001 &1385427379
 PrefabInstance:
   m_ObjectHideFlags: 0
