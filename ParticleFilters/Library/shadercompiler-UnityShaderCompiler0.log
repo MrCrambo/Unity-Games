@@ -952,3 +952,430 @@ Cmd: compileSnippet
   api=14 type=0 insize=4140 outsize=3151 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
 Cmd: compileSnippet
   api=14 type=1 insize=4140 outsize=2835 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=1366 outsize=1372 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=1373 outsize=1510 ok=1
+Cmd: preprocessCompute
+  insize=5013 outsize=5015 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=5015 outsize=3647 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3647 outsize=8984 ok=1
+Cmd: preprocess
+  insize=3759 outsize=647 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=3555 outsize=2909 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=3555 outsize=2109 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocess
+  insize=1074 outsize=379 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=1136 outsize=1335 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=1136 outsize=799 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocessCompute
+  insize=9091 outsize=9103 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=9103 outsize=3862 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3239 outsize=5344 ok=1
+Cmd: preprocess
+  insize=4178 outsize=709 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=3912 outsize=3102 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=3912 outsize=2855 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocess
+  insize=1414 outsize=393 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=1462 outsize=1423 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=1462 outsize=790 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocessCompute
+  insize=1163 outsize=1165 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=1165 outsize=1923 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=1923 outsize=3572 ok=1
+Cmd: preprocessCompute
+  insize=6374 outsize=6376 ok=1
+Cmd: preprocessCompute
+  insize=5816 outsize=5818 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=5818 outsize=2676 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2676 outsize=4662 ok=1
+Cmd: preprocess
+  insize=40553 outsize=658 ok=1
+Cmd: preprocessCompute
+  insize=1968 outsize=1970 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=1970 outsize=2698 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2698 outsize=3747 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=23149 outsize=9113 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=23149 outsize=1044 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocessCompute
+  insize=6374 outsize=6376 ok=1
+Cmd: preprocessCompute
+  insize=5816 outsize=5818 ok=1
+Cmd: preprocess
+  insize=40553 outsize=658 ok=1
+Cmd: preprocessCompute
+  insize=1968 outsize=1970 ok=1
+Cmd: preprocessCompute
+  insize=6374 outsize=6376 ok=1
+Cmd: preprocessCompute
+  insize=5816 outsize=5818 ok=1
+Cmd: preprocess
+  insize=40553 outsize=658 ok=1
+Cmd: preprocessCompute
+  insize=1968 outsize=1970 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=3555 outsize=2909 kw=FOG_EXP2 pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=3555 outsize=2109 kw=FOG_EXP2 pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocessCompute
+  insize=6340 outsize=6342 ok=1
+Cmd: preprocessCompute
+  insize=5816 outsize=5818 ok=1
+Cmd: preprocess
+  insize=40556 outsize=661 ok=1
+Cmd: preprocessCompute
+  insize=1968 outsize=1970 ok=1
+Cmd: preprocessCompute
+  insize=6340 outsize=6342 ok=1
+Cmd: preprocessCompute
+  insize=5816 outsize=5818 ok=1
+Cmd: preprocess
+  insize=40556 outsize=661 ok=1
+Cmd: preprocessCompute
+  insize=1968 outsize=1970 ok=1
+Cmd: preprocessCompute
+  insize=6340 outsize=6342 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6342 outsize=3375 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3375 outsize=5070 ok=1
+Cmd: preprocessCompute
+  insize=5816 outsize=5818 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=5818 outsize=2676 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2676 outsize=4662 ok=1
+Cmd: preprocess
+  insize=40556 outsize=662 ok=1
+Cmd: preprocessCompute
+  insize=1903 outsize=1905 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=1905 outsize=2278 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2278 outsize=3119 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6536 outsize=3347 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3347 outsize=5076 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7319 outsize=3158 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3158 outsize=5880 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7702 outsize=4458 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=4458 outsize=7631 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7299 outsize=5289 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5289 outsize=9802 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6536 outsize=3347 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3347 outsize=5076 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7319 outsize=3158 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3158 outsize=5880 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7702 outsize=4458 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6568 outsize=6570 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6570 outsize=2811 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2811 outsize=4576 ok=1
+Cmd: preprocessCompute
+  insize=7351 outsize=7353 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7353 outsize=3076 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3076 outsize=5821 ok=1
+Cmd: preprocessCompute
+  insize=7538 outsize=7540 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7540 outsize=3616 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3616 outsize=6938 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7299 outsize=4254 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=4254 outsize=8447 ok=1
+Cmd: preprocess
+  insize=41346 outsize=670 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6568 outsize=6570 ok=1
+Cmd: preprocessCompute
+  insize=7351 outsize=7353 ok=1
+Cmd: preprocessCompute
+  insize=7538 outsize=7540 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41346 outsize=670 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6536 outsize=3347 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3347 outsize=5074 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7319 outsize=3158 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3158 outsize=5876 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=7702 outsize=4458 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=4458 outsize=7630 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1
+Cmd: preprocessCompute
+  insize=6534 outsize=6536 ok=1
+Cmd: preprocessCompute
+  insize=7317 outsize=7319 ok=1
+Cmd: preprocessCompute
+  insize=7700 outsize=7702 ok=1
+Cmd: preprocessCompute
+  insize=7297 outsize=7299 ok=1
+Cmd: preprocess
+  insize=41259 outsize=648 ok=1

@@ -2,3 +2,10 @@ Base path: '/Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents', plugi
 Cmd: initializeCompiler
 Cmd: compileSnippet
   api=14 type=0 insize=2364 outsize=4818 kw=FOG_EXP2 _EMISSION _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT _NORMALMAP _METALLICSPECGLOSSMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: translateComputeKernel
+  api=14 insize=3900 outsize=7126 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6342 outsize=3375 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3375 outsize=5070 ok=1
